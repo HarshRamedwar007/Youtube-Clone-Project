@@ -9,7 +9,7 @@ Currently,   official plugins are available:
   ## github Link
 https://github.com/HarshRamedwar007/Youtube-Clone-Project
   ## git clone Link
-  git clone  https://github.com/HarshRamedwar007/Shoppify-E-commerce-website-Backend.git
+  git clone   https://github.com/HarshRamedwar007/Youtube-Clone-Project.git
 
 
 # YouTube Clone - Frontend
