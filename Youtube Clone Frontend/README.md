@@ -14,7 +14,7 @@ https://github.com/HarshRamedwar007/Youtube-Clone-Project
 
 # YouTube Clone - Frontend
 
-This is the frontend of a YouTube clone application built with React, React Router, and Axios. The app allows users to browse, search, and filter videos, authenticate, manage channels, and interact with videos.
+This is the frontend of a YouTube clone application built with React, React Router, and Axios. The app allows users to do browsing, searching, and filtering videos, authenticating, manage channels, and interacting with videos.
 
 
 ## Features
@@ -30,9 +30,9 @@ This is the frontend of a YouTube clone application built with React, React Rout
    JWT-based authentication for secure sessions.
    Sign-in button visible in the header when not logged in.
 
-- **Search & Filter**:
-  - Search videos by title.
-  - Filter videos using category buttons.
+  Search & Filter :
+   Search videos by title.
+   Filter videos using category buttons.
 
 Video Player:
      Play video and display:
@@ -47,11 +47,11 @@ Video Player:
  Responsive Design:
   Fully responsive across mobile, tablet, and desktop devices.
 
-## Technologies Used
+ Technologies Used
 
  Frontend: React, React Router, Axios
- Backend: Node.js, Express.js, MongoDB (for backend API)
- Authentication: JWT (JSON Web Tokens)
- Database: MongoDB (using MongoDB Atlas or local instance)
+ Backend: Node.js, Express.js, MongoDB  
+ Authentication: JWT 
+ Database: MongoDB  
 
 
