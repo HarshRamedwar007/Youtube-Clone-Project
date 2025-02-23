@@ -1,0 +1,277 @@
+nav {
+    width: 100%;
+    padding: 0.6rem 2.2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0px;
+    z-index: 10;
+    background-color: #fff;
+  }
+  
+  nav .left {
+    display: flex;
+    align-items: center;
+    gap: 1.2rem;
+    width: 250px;
+  }
+  
+  nav .left i {
+    font-size: 1.6rem;
+    font-weight: 200;
+  }
+  
+  nav .left .yti {
+    color: #FF0000;
+    font-size: 2.2rem;
+  }
+  
+  nav .left h2 {
+    display: flex;
+    align-items: center;
+    font-size: 1.1rem;
+    font-weight: 1000;
+  }
+  
+  nav .left h2 span {
+    position: relative;
+    bottom: 8px;
+    font-size: 0.7rem;
+    opacity: 0.7;
+  }
+  
+  nav .mid {
+    display: flex;
+    align-items: center;
+    border-radius: 28px;
+    border: 1px solid #ccc;
+    overflow: hidden;
+  }
+  
+  nav .mid .search {
+    display: flex;
+    align-items: center;
+    padding: 0.3rem;
+    border-right: 0px;
+  }
+  
+  nav .mid .search .sbar {
+    display: flex;
+    height: 100%;
+  }
+  
+  nav .mid .search .sbar input {
+    width: 42vw;
+    font-size: 1.1rem;
+    border: 0px;
+    outline: none;
+  }
+  
+  #sbtn {
+    height: 100%;
+    font-weight: 400;
+    width: 3.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    border-left: 1px solid black;
+    cursor: pointer;
+  }
+  
+  .your-profile {
+    width: 2.6rem;
+    height: 2.6rem;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+  
+  #sbtn:hover {
+    background-color: rgba(0, 0, 0, 0.083);
+  }
+  
+  nav .right {
+    display: flex;
+  }
+  
+  nav .right i {
+    font-size: 1.6rem;
+    padding: 0.3rem 0.7rem;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  
+  nav .right i:hover {
+    background-color: rgba(0, 0, 0, 0.083);
+  }
+  
+  nav .right #profile {
+    margin-left: 1.2rem;
+  }
+  
+  nav .sidebar {
+    position: absolute;
+    width: 100vw;
+    top: 0px;
+    height: 100vh;
+    overflow-y: auto;
+    transition: all;
+    transition-duration: 0.3s;
+    transition-timing-function: cubic-bezier(0.19, 1, 0.22, 1);
+    display: flex;
+  }
+  
+  nav .sidebar .left {
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    overflow-y: auto;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+  }
+  
+  nav .sidebar .left .first-menu {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 1.2rem;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.312);
+    padding-bottom: 1.2rem;
+  }
+  
+  nav .sidebar .left .options {
+    display: flex;
+    width: 80%;
+    align-items: center;
+    gap: 1.2rem;
+    padding: 6px 12px;
+    border-radius: 12px;
+    cursor: pointer;
+  }
+  
+  nav .sidebar .left .options:hover {
+    background-color: rgba(0, 0, 0, 0.092);
+  }
+  
+  nav .sidebar .left .options img {
+    height: 2.2rem;
+  }
+  
+  nav .sidebar .right {
+    width: calc(100% - 250px);
+    background-color: rgba(0, 0, 0, 0.222);
+    height: 100%;
+    transition: all;
+    transition-duration: 1s;
+  }
+  
+  nav .sidebar .left .top {
+    width: 100%;
+    display: flex;
+    gap: 1.2rem;
+    align-items: center;
+    padding: 8px 28px;
+  }
+  
+  #sec-searchbtn {
+    display: none;
+  }
+  
+  .signupPage {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(255, 255, 255, 0.334);
+    display: flex;
+    justify-content: center;
+    backdrop-filter: blur(20px);
+  }
+  
+  .profilePage {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    backdrop-filter: blur(10px);
+    background-color: rgba(255, 255, 255, 0.5);
+    display: flex;
+  }
+  
+  .createChannel {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    backdrop-filter: blur(10px);
+    background-color: rgba(255, 255, 255, 0.5);
+    display: flex;
+    padding-top: 6.5vw;
+    justify-content: center;
+  }
+  
+  .VideoUpload-page {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    backdrop-filter: blur(10px);
+    background-color: rgba(255, 255, 255, 0.5);
+    display: flex;
+    padding-top: 6.5vw;
+    justify-content: center;
+  }
+  
+  .notification-page {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    backdrop-filter: blur(10px);
+    background-color: rgba(255, 255, 255, 0.5);
+    display: flex;
+    padding-top: 6.5vw;
+    justify-content: center;
+  }
+  
+  @media (max-width:800px) {
+    nav .mid .search .sbar input {
+      width: 32vw;
+      font-size: 1.1rem;
+      border: 0px;
+      outline: none;
+    }
+  }
+  
+  @media (max-width:700px) {
+    nav .mid {
+      display: none;
+    }
+  
+    #sec-searchbtn {
+      display: inline;
+    }
+  
+    nav {
+      width: 100%;
+      padding: 0.6rem 0.6rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+  
+    nav .right #profile {
+      margin-left: 0rem;
+    }
+  
+    .your-profile {
+      margin-right: 1.2rem;
+    }
+  }

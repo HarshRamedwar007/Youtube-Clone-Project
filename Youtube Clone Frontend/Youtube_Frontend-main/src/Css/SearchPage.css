@@ -1,0 +1,40 @@
+.Search-page {
+    width: 100vw;
+    height: 100vh;
+    z-index: 100;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+    background-color: #fff;
+    overflow-y: scroll;
+    padding-top: 5rem;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .Search-page .top {
+    display: flex;
+    padding: 0.6rem;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    background-color: #fff;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .Search-page .btm {
+    width: 100%;
+    padding-top: 1rem;
+  }
+  
+  .Search-page .top input {
+    border: none;
+    outline: none;
+    background-color: rgba(0, 0, 0, 0.05);
+    padding: 0.6rem;
+    border-radius: 22px;
+    width: 85%;
+  }
